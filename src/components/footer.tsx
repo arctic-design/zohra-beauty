@@ -1,3 +1,5 @@
+"use client";
+
 import { Heart, Phone, Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
@@ -75,7 +77,9 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 flex items-center justify-center space-x-1 flex-wrap">
-            <span>© 2024 Zohra Beauty Family Salon. Made with</span>
+            <span>
+              © {new Date().getFullYear()} Zohra Beauty Family Salon. Made with
+            </span>
             <Heart className="w-4 h-4 text-primary-400 fill-current" />
             <span>for our valued customers.</span>
           </p>
