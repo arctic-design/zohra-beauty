@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bottle 1 -->
+  <rect x="30" y="70" width="25" height="60" rx="4" ry="4" fill="#dc2626"/>
+  <rect x="35" y="60" width="15" height="12" rx="2" ry="2" fill="#ffffff"/>
+
+  <!-- Bottle 2 -->
+  <rect x="80" y="80" width="20" height="50" rx="3" ry="3" fill="#ef4444"/>
+  <circle cx="90" cy="75" r="7" fill="#ffffff"/>
+
+  <!-- Brush -->
+  <rect x="130" y="65" width="6" height="55" fill="#374151"/>
+  <path d="M133,65 v-8 h10 v8" fill="#dc2626"/>
+  <path d="M133,120 h12" stroke="#ffffff" stroke-width="2"/>
+  <path d="M133,126 h12" stroke="#ffffff" stroke-width="2"/>
+  <path d="M133,132 h12" stroke="#ffffff" stroke-width="2"/>
+</svg>

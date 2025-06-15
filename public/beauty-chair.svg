@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Seat cushion -->
+  <rect x="50" y="90" width="100" height="20" rx="8" ry="8" fill="#dc2626"/>
+  <!-- Backrest -->
+  <rect x="60" y="60" width="80" height="40" rx="8" ry="8" fill="#ef4444"/>
+  <!-- Armrests -->
+  <path d="M50,90 h-10 v10 h20 v-10 h-10" fill="#b91c1c"/>
+  <path d="M150,90 h10 v10 h-20 v-10 h10" fill="#b91c1c"/>
+  <!-- Chair base -->
+  <line x1="100" y1="110" x2="100" y2="150" stroke="#374151" stroke-width="4"/>
+  <line x1="100" y1="150" x2="80" y2="180" stroke="#374151" stroke-width="4"/>
+  <line x1="100" y1="150" x2="120" y2="180" stroke="#374151" stroke-width="4"/>
+
+  <!-- Decorative curls -->
+  <path d="M60,60 q-10,-10 0,-20" stroke="#ffffff" stroke-width="2" fill="none"/>
+  <path d="M140,60 q10,-10 0,-20" stroke="#ffffff" stroke-width="2" fill="none"/>
+</svg>
